@@ -123,20 +123,25 @@ a {
 /* --- Logo and Navigation Menu --- */
 .nav {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem 0;
+  justify-content: space-around;
+   position: fixed;
+   margin: auto;
+ 
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  
   gap: 3rem;
 }
 
 /* Logo */
 .logo {
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: left;
+  margin-right: 550px;
   font-weight: 700;
   font-size: 2rem;
 }
